@@ -1,0 +1,27 @@
+{
+  "name": "tennu-karma",
+  "version": "1.0.0",
+  "description": "Karma plugin for Tennu IRC framework",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tennu/tennu-karma.git"
+  },
+  "keywords": [
+    "tennu-plugin",
+    "karma"
+  ],
+  "author": "Ryan Scheel (Havvy)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tennu/tennu-karma/issues"
+  },
+  "homepage": "https://github.com/Tennu/tennu-karma#readme",
+  "dependencies": {
+    "dirty": "^1.1.0",
+    "r-result": "^1.5.1"
+  }
+}
