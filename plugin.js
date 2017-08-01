@@ -34,7 +34,7 @@ const KarmaPlugin = {
                             },
 
                             Fail(_) {
-                                return `${target} has never been given or taken karma.`;
+                                return `${target} has never had karma given or taken.`;
                             }
                         });
                     }
