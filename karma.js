@@ -64,18 +64,24 @@ const KarmaServer = function (databaseLocation) {
 
     return {
         increment (changer, topic) {
+            topic = topic.toLowerCase();
+
             if (changeHistory.canChange(changer, topic)) {
                 db.increment(topic);
             };
         },
 
         decrement (changer, topic) {
+            topic = topic.toLowerCase();
+
             if (changeHistory.canChange(changer, topic)) {
                 db.decrement(topic);
             };
         },
 
         get (topic) {
+            topic = topic.toLowerCase();
+            
             return db.get(topic);
         },
 
