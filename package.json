@@ -4,7 +4,7 @@
   "description": "Karma plugin for Tennu IRC framework",
   "main": "plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "dependencies": {
     "dirty": "^1.1.0",
     "r-result": "^1.5.1"
+  },
+  "devDependencies": {
+    "deep-eql": "^2.0.2",
+    "mocha": "^3.5.0"
   }
 }
